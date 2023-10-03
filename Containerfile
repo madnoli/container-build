@@ -10,4 +10,4 @@ LABEL io.k8s.display-name="Apache HTTP Server"
 LABEL io.openshift.expose-services="8080:http"  
 LABEL io.openshift.tags="apache, httpd"
 
-ONBUILD COPY src/ /var/www/html
+
